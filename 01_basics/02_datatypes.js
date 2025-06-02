@@ -25,3 +25,4 @@ let state = null
 console.log(typeof "seema")
 console.log(typeof undefined)
 console.log(typeof null)
+ 
