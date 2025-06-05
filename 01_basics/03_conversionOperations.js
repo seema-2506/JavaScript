@@ -46,6 +46,16 @@
 // console.log("1"+2+2);
 // console.log(1+2+"2");
 
+let num1, num2, num3
+
+num1 = num2 = num3 = 8 + 4
+
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter);
+console.log(++gameCounter);
+console.log(gameCounter--);
+console.log(--gameCounter);
 
 
 
