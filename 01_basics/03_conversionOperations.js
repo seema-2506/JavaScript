@@ -58,12 +58,3 @@ console.log(gameCounter--);
 console.log(--gameCounter);
 
 
-
-
-
-
-
-
-
-
-
