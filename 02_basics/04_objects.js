@@ -52,12 +52,37 @@ const users = [
         email: "seema@gmail.com"
     }
 ]
-users[1].email
-console.log(tinderUser);
+// users[1].email
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
 
-console.log(tinderUser.hasOwnProperty('isLogged'));
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Seema"
+}
+// course.courseInstructor
+
+const{courseInstructor: instructor} = course  // de-structuring objects
+console.log(instructor);
+
+// {
+//     name: "seema",
+//     coursename: "js in hindi",
+//     price: "free"
+// }
+
+
+//json is basically a javascript object notation
+[
+    {},
+    {},
+    {}
+]
